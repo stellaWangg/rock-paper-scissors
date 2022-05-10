@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>RPS-Game</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Rock Paper Scissors</h1>
+      <h3>Fighting against computer</h3>
+
+      <div class="game-section">
+        <h1>🕹</h1>
+        <div class="score-sec">
+          <span class="score" id="pplScore"> 0 </span>
+          <span class="score" id="comScore">0</span>
+        </div>
+        <div class="result-container">
+          <h2 class="result"></h2>
+        </div>
+
+        <div class="pic-container">
+          <button class="btn" value="rock">
+            <img
+              src="https://yvana.org/games/games-images/rock-paper-scissor/rock.png"
+              alt="rock"
+              class="game-img"
+            />
+          </button>
+          <button class="btn" value="paper">
+            <img
+              src="https://cutewallpaper.org/24/rock-paper-scissors-png/rock-paper-scissors-dell-clipart-full-size-clipart-511436--pinclipart.png"
+              alt="paper"
+              class="game-img"
+            />
+          </button>
+          <button class="btn" value="scissors">
+            <img src="./img/scissors.png" alt="scissors" class="game-img" />
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Designed by treelab</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

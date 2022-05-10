@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+  background-color: darkolivegreen;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+.game-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  align-items: center;
+}
+
+.game-img {
+  width: 200px;
+  height: 200px;
+  padding: auto;
+  /* mix-blend-mode: multiply; */
+}
+.pic-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+}
+.score-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  background-color: cadetblue;
+  padding: 2rem;
+  border: 1px solid #dae5d0;
+}
+span {
+  font-size: 1.5rem;
+}
+#pplScore {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+#comScore {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.result-container {
+  padding: 30px;
+}
+
+footer {
+  width: 100%;
+
+  /* height: 3.1rem; */
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
